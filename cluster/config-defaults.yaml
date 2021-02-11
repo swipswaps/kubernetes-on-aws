@@ -529,3 +529,6 @@ kube_node_not_ready_taint_enabled: "false"
 {{ else }}
 kube_node_not_ready_taint_enabled: "true"
 {{ end }}
+
+# TODO: remove after CLM is updated
+clm_new_userdata_path: "true"
